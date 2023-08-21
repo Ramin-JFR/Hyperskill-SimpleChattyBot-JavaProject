@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":Topics-Scanning_the_input-Reading_User_Input_with_Scanner:main" external.linked.project.path="$MODULE_DIR$/../../../../../Topics/Scanning the input/Reading User Input with Scanner" external.root.project.path="$MODULE_DIR$/../../../../.." external.system.id="GRADLE" external.system.module.group="Simple Chatty Bot (Java)" external.system.module.type="sourceSet" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../../../../Topics/Scanning the input/Reading User Input with Scanner/out/production/classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../../../Topics/Scanning the input/Reading User Input with Scanner/src">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../Topics/Scanning the input/Reading User Input with Scanner/src" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

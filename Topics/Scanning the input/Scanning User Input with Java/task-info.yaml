@@ -1,0 +1,40 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: |-
+    <pre><code class="java">Scanner inputData = new Scanner(System.in);
+    int userInput = inputData.nextInt();</code></pre>
+- text: |-
+    <pre><code class="java">Scanner scan = new Scanner(System.in);
+    int userInput = scan.parseInt();</code></pre>
+- text: |-
+    <pre><code class="java">Scanner scanner = new Scanner(System.in);
+    int userInput = scanner.nextInt();</code></pre>
+- text: |-
+    <pre><code class="java">Scanner input = new Scanner(System.in);
+    Integer userInput = inputData.nextInt();</code></pre>
+- text: |-
+    <pre><code class="java">Scanner inputData = new Scanner(System.in);
+    int userInput = inputData.next();</code></pre>
+files:
+- name: src/Task.java
+  visible: true
+  text: |
+    // You can experiment here, it won’t be checked
+
+    public class Task {
+      public static void main(String[] args) {
+        // put your code here
+      }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/30365#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Tue, 27 Jun 2023 20:11:31 UTC"
+record: -1
+selected_options:
+- 0
+- 2
+local_check: false

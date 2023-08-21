@@ -1,0 +1,48 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: |-
+    <pre><code class="java">import java.util.Scanner;</code></pre>
+    <pre><code class="java">Scanner scanner = new Scanner(System.in);</code></pre>
+    <pre><code class="java">String inputString = scanner.nextLine();</code></pre>
+    <pre><code class="java">int inputInt = scanner.nextInt();</code></pre>
+    <pre><code class="java">double inputDouble = scanner.nextDouble();</code></pre>
+- text: |-
+    <pre><code class="java">import java.util.Scanner;</code></pre>
+    <pre><code class="java">Scanner scanner = new Scanner(System.in);</code></pre>
+    <pre><code class="java">String inputString = scanner.next();</code></pre>
+    <pre><code class="java">int inputInt = scanner.nextInt();</code></pre>
+    <pre><code class="java">double inputDouble = scanner.nextDouble();</code></pre>
+- text: |-
+    <pre><code class="java">import java.util.Scanner;</code></pre>
+    <pre><code class="java">Scanner scanner = new Scanner(System.in);</code></pre>
+    <pre><code class="java">String inputString = scanner.nextLine();</code></pre>
+    <pre><code class="java">int inputInt = scanner.next();</code></pre>
+    <pre><code class="java">double inputDouble = scanner.nextDouble();</code></pre>
+- text: |-
+    <pre><code class="java">import java.util.Scanner;</code></pre>
+    <pre><code class="java">Scanner scanner = new Scanner(System.in);</code></pre>
+    <pre><code class="java">String inputString = scanner.next();</code></pre>
+    <pre><code class="java">int inputInt = scanner.nextInt();</code></pre>
+    <pre><code class="java">double inputDouble = scanner.next();</code></pre>
+files:
+- name: src/Task.java
+  visible: true
+  text: |
+    // You can experiment here, it won’t be checked
+
+    public class Task {
+      public static void main(String[] args) {
+        // put your code here
+      }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/30218#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Tue, 27 Jun 2023 19:07:49 UTC"
+record: -1
+selected_options:
+- 0
+local_check: false

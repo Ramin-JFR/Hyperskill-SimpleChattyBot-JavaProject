@@ -1,0 +1,41 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: "<pre><code class=\"java\">import java.util.Scanner; \\nScanner scanner =\
+    \ new Scanner(System.in); \\nString name = scanner.nextLine(); \\nint age = scanner.nextInt();\
+    \ \\nSystem.out.println(\"Hello, \" + name + \"! You are \" + age + \" years old.\"\
+    );</code></pre>"
+- text: "<pre><code class=\"java\">import java.util.Scanner; \\nScanner scanner =\
+    \ new Scanner(System.in); \\nString name = scanner.next(); \\nint age = scanner.nextInt();\
+    \ \\nSystem.out.printf(\"Hello, %s! You are %d years old.\", name, age);</code></pre>"
+- text: "<pre><code class=\"java\">// import java.util.Scanner; \\nScanner scanner\
+    \ = new Scanner(System.in); \\nString name = scanner.next(); \\nint age = scanner.nextInt();\
+    \ \\nSystem.out.println(\"Hello, \" + name + \"! You are \" + age + \" years old.\"\
+    );</code></pre>"
+- text: "<pre><code class=\"java\">import java.util.Scanner; \\nScanner scanner =\
+    \ new Scanner(System.in); \\nString name = scanner.next(); \\nint age = scanner.nextInt();\
+    \ \\nSystem.out.println(\"Hello, \" + name + \"! You are \" + age + \" years old.\"\
+    );</code></pre>"
+files:
+- name: src/Task.java
+  visible: true
+  text: |
+    // You can experiment here, it won’t be checked
+
+    public class Task {
+      public static void main(String[] args) {
+        // put your code here
+      }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/30043#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Tue, 20 Jun 2023 19:38:30 UTC"
+record: -1
+selected_options:
+- 0
+- 1
+- 3
+local_check: false
